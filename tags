@@ -1,0 +1,195 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+"	underscore.js	/^    '>': '&gt;',$/;"	p	class:escapeMap
+&	underscore.js	/^  var escapeMap = {$/;"	p	class:escapeMap
+'	underscore.js	/^    '"': '&quot;',$/;"	p	class:escapeMap
+'	underscore.js	/^  var escapes = {$/;"	p	class:escapes
+<	underscore.js	/^    '&': '&amp;',$/;"	p	class:escapeMap
+>	underscore.js	/^    '<': '&lt;',$/;"	p	class:escapeMap
+ArrayProto	underscore.js	/^  var ArrayProto = Array.prototype, ObjProto = Object.prototype;$/;"	v
+Ctor	underscore.js	/^    var result = new Ctor;$/;"	c
+Ctor	underscore.js	/^  var Ctor = function(){};$/;"	f
+MAX_ARRAY_INDEX	underscore.js	/^  var MAX_ARRAY_INDEX = Math.pow(2, 53) - 1;$/;"	v
+SymbolProto	underscore.js	/^  var SymbolProto = typeof Symbol !== 'undefined' ? Symbol.prototype : null;$/;"	v
+\	underscore.js	/^    "'": "'",$/;"	p	class:escapes
+_	underscore.js	/^  _.zip = restArguments(_.unzip);$/;"	f
+_	underscore.js	/^  var _ = function(obj) {$/;"	c
+_.after	underscore.js	/^  };$/;"	f
+_.allKeys	underscore.js	/^  };$/;"	f
+_.before	underscore.js	/^  };$/;"	f
+_.chain	underscore.js	/^  };$/;"	f
+_.chunk	underscore.js	/^  };$/;"	f
+_.clone	underscore.js	/^  };$/;"	f
+_.compact	underscore.js	/^  };$/;"	f
+_.compose	underscore.js	/^  };$/;"	f
+_.constant	underscore.js	/^  };$/;"	f
+_.create	underscore.js	/^  _.defaults = createAssigner(_.allKeys, true);$/;"	f
+_.debounce	underscore.js	/^  };$/;"	f
+_.findKey	underscore.js	/^  _.extendOwn = _.assign = createAssigner(_.keys);$/;"	f
+_.findWhere	underscore.js	/^  };$/;"	f
+_.flatten	underscore.js	/^  };$/;"	f
+_.has	underscore.js	/^  };$/;"	f
+_.identity	underscore.js	/^  };$/;"	f
+_.initial	underscore.js	/^  };$/;"	f
+_.intersection	underscore.js	/^  });$/;"	f
+_.invert	underscore.js	/^  };$/;"	f
+_.isArguments	underscore.js	/^  if (!_.isArguments(arguments)) {$/;"	f
+_.isBoolean	underscore.js	/^  };$/;"	f
+_.isElement	underscore.js	/^  };$/;"	f
+_.isEmpty	underscore.js	/^  };$/;"	f
+_.isEqual	underscore.js	/^  };$/;"	f
+_.isFinite	underscore.js	/^  }$/;"	f
+_.isFunction	underscore.js	/^  if (typeof \/.\/ != 'function' && typeof Int8Array != 'object' && typeof nodelist != 'function') {$/;"	f
+_.isMatch	underscore.js	/^  };$/;"	f
+_.isNaN	underscore.js	/^  };$/;"	f
+_.isNull	underscore.js	/^  };$/;"	f
+_.isObject	underscore.js	/^  };$/;"	f
+_.isUndefined	underscore.js	/^  };$/;"	f
+_.keys	underscore.js	/^  };$/;"	f
+_.last	underscore.js	/^  };$/;"	f
+_.mapObject	underscore.js	/^  };$/;"	f
+_.max	underscore.js	/^  };$/;"	f
+_.memoize	underscore.js	/^  });$/;"	f
+_.min	underscore.js	/^  };$/;"	f
+_.mixin	underscore.js	/^  };$/;"	f
+_.negate	underscore.js	/^  };$/;"	f
+_.noConflict	underscore.js	/^  };$/;"	f
+_.noop	underscore.js	/^  };$/;"	f
+_.pairs	underscore.js	/^  };$/;"	f
+_.pluck	underscore.js	/^  });$/;"	f
+_.property	underscore.js	/^  _.noop = function(){};$/;"	f
+_.propertyOf	underscore.js	/^  };$/;"	f
+_.random	underscore.js	/^  };$/;"	f
+_.range	underscore.js	/^  _.lastIndexOf = createIndexFinder(-1, _.findLastIndex);$/;"	f
+_.reject	underscore.js	/^  };$/;"	f
+_.result	underscore.js	/^  _.unescape = createEscaper(unescapeMap);$/;"	f
+_.sample	underscore.js	/^  };$/;"	f
+_.shuffle	underscore.js	/^  };$/;"	f
+_.size	underscore.js	/^  };$/;"	f
+_.sortBy	underscore.js	/^  };$/;"	f
+_.sortedIndex	underscore.js	/^  _.findLastIndex = createPredicateIndexFinder(-1);$/;"	f
+_.tap	underscore.js	/^  };$/;"	f
+_.throttle	underscore.js	/^  _.defer = _.partial(_.delay, _, 1);$/;"	f
+_.times	underscore.js	/^  };$/;"	f
+_.toArray	underscore.js	/^  var reStrSymbol = \/[^\\ud800-\\udfff]|[\\ud800-\\udbff][\\udc00-\\udfff]|[\\ud800-\\udfff]\/g;$/;"	f
+_.uniqueId	underscore.js	/^  var idCounter = 0;$/;"	f
+_.unzip	underscore.js	/^  });$/;"	f
+_.values	underscore.js	/^  };$/;"	f
+_.where	underscore.js	/^  };$/;"	f
+_.wrap	underscore.js	/^  };$/;"	f
+`	underscore.js	/^    "'": '&#x27;',$/;"	p	class:escapeMap
+a	mutate_val_obj.js	/^var a =3;$/;"	v
+a	this.js	/^function a() {$/;"	f
+address	app.js	/^  lastname: 'Default',$/;"	p	class:person
+address	app.js	/^var jane = {$/;"	p	class:jane
+anonymousGreet	func_in_func.js	/^var anonymousGreet = function() {$/;"	f
+areArrays	underscore.js	/^    var areArrays = className === '[object Array]';$/;"	v
+arr1	most_important.js	/^var arr1 = [1,2,3];$/;"	v
+arr1	mostimportant.js	/^var arr1 = [1,2,3];$/;"	v
+arr1	simple_array_copyiing.js	/^var arr1 = [1,2,3];$/;"	v
+arr2	simple_array_copyiing.js	/^var arr2 = [];$/;"	v
+arr6	most_important.js	/^var arr6 = _.map(arr1, function(item){ return item <4});$/;"	v
+arr6	mostimportant.js	/^var arr6 = _.map(arr1, function(item){ return item <4});$/;"	v
+arr7	most_important.js	/^var arr7 = _.filter([2,3,4,4,5,6,7,8,9], function(item) {$/;"	v
+b	mutate_val_obj.js	/^var b;$/;"	v
+baseCreate	underscore.js	/^  var baseCreate = function(prototype) {$/;"	f
+builtinIteratee	underscore.js	/^  var builtinIteratee;$/;"	v
+cb	underscore.js	/^  var cb = function(value, context, argCount) {$/;"	f
+chainResult	underscore.js	/^  var chainResult = function(instance, obj) {$/;"	f
+changeGreetings	mutate_val_obj.js	/^function changeGreetings(obj){$/;"	f
+checkPastLimit	most_important.js	/^var checkPastLimit = function(limiter, item) {$/;"	f
+checkPastLimit	mostimportant.js	/^var checkPastLimit = function(limiter, item) {$/;"	f
+checkPastLimitSimplified	most_important.js	/^var checkPastLimitSimplified = function(limiter) {$/;"	f
+checkPastLimitSimplified	mostimportant.js	/^var checkPastLimitSimplified = function(limiter) {$/;"	f
+collectNonEnumProps	underscore.js	/^  var collectNonEnumProps = function(obj, keys) {$/;"	f
+createAssigner	underscore.js	/^  var createAssigner = function(keysFunc, defaults) {$/;"	f
+createEscaper	underscore.js	/^  var createEscaper = function(map) {$/;"	f
+createIndexFinder	underscore.js	/^  var createIndexFinder = function(dir, predicateFind, sortedIndex) {$/;"	f
+createPredicateIndexFinder	underscore.js	/^  var createPredicateIndexFinder = function(dir) {$/;"	f
+createReduce	underscore.js	/^  var createReduce = function(dir) {$/;"	f
+d	mutate_val_obj.js	/^var d;$/;"	v
+debounced.cancel	underscore.js	/^    });$/;"	f
+deepEq	underscore.js	/^  };$/;"	f
+deepGet	underscore.js	/^  var deepGet = function(obj, path) {$/;"	f
+eq	underscore.js	/^  var eq, deepEq;$/;"	f
+eq	underscore.js	/^  var eq, deepEq;$/;"	v
+escaper	underscore.js	/^    var escaper = function(match) {$/;"	f	function:createEscaper
+evaluate	underscore.js	/^  _.templateSettings = {$/;"	p	class:_.templateSettings
+executeBound	underscore.js	/^  var executeBound = function(sourceFunc, boundFunc, context, callingContext, args) {$/;"	f
+firstname	IIFE.js	/^var firstname = 'Sasha';$/;"	v
+firstname	app.js	/^var john = {$/;"	p	class:john
+firstname	app.js	/^var person = {$/;"	p	class:person
+firstname	bind1.js	/^var person = {$/;"	p	class:person
+firstname	bind2.js	/^var person = {$/;"	p	class:person
+firstname	call_apply.js	/^var person = {$/;"	p	class:person
+firstname	error1.js	/^const person = {$/;"	p	class:const
+firstname	error1.js	/^var person2 = {$/;"	p	class:person2
+flatten	underscore.js	/^  var flatten = function(input, shallow, strict, output) {$/;"	f
+getFirstName	app.js	/^var jim = {$/;"	m	class:jim
+getFormalFullName	app.js	/^    address: '111 Main st.',$/;"	m	class:jane
+getFullName	app.js	/^  address: 'Hlevakha, Voksalna str, 23\/11',$/;"	m	class:person
+getFullName	bind1.js	/^    lastname: 'Doe',$/;"	m	class:person
+getFullName	bind2.js	/^    lastname: 'Doe',$/;"	m	class:person
+getFullName	call_apply.js	/^    lastname: 'Doe',$/;"	m	class:person
+getFullName	error1.js	/^    lastname: 'Doe',$/;"	m	class:const
+greet	args.js	/^function greet (firstname, lastname, language) {$/;"	f
+greet	func_obj.js	/^function greet() {$/;"	f
+greeting	IIFE.js	/^var greeting = function(name) {$/;"	f
+greeting	mutate_val_obj.js	/^c = {greeting: 'howdy'};$/;"	p	class:c
+greeting	mutate_val_obj.js	/^var c = {greeting: 'hi'};$/;"	p	class:c
+group	underscore.js	/^  var group = function(behavior, partition) {$/;"	f
+has	underscore.js	/^  var has = function(obj, path) {$/;"	f
+idCounter	underscore.js	/^  var idCounter = 0;$/;"	v
+isArrayLike	underscore.js	/^  var isArrayLike = function(collection) {$/;"	f
+keyInObj	underscore.js	/^  var keyInObj = function(value, key, obj) {$/;"	f
+lastname	app.js	/^  firstname: "John",$/;"	p	class:john
+lastname	app.js	/^  firstname: 'Default',$/;"	p	class:person
+lastname	bind1.js	/^    firstname: 'John',$/;"	p	class:person
+lastname	bind2.js	/^    firstname: 'John',$/;"	p	class:person
+lastname	call_apply.js	/^    firstname: 'John',$/;"	p	class:person
+lastname	error1.js	/^    firstname: 'Jane',$/;"	p	class:person2
+lastname	error1.js	/^    firstname: 'John',$/;"	p	class:const
+later	underscore.js	/^    var later = function() {$/;"	f
+later	underscore.js	/^    var later = function(context, args) {$/;"	f	function:_.debounce
+length	underscore.js	/^    var length = aStack.length;$/;"	v
+log	func_in_func.js	/^function log(a) {$/;"	f
+log	self.js	/^    name: 'the c object',$/;"	m	class:c
+logName	bind1.js	/^var logName = function(lang1, lang2){$/;"	f
+logName	bind2.js	/^var logName = function(lang1, lang2){$/;"	f
+logName	call_apply.js	/^var logName = function(lang1, lang2){$/;"	f
+makeGreeting	closure_use1.js	/^function makeGreeting(language) {$/;"	f
+mapForEach	most_important.js	/^function mapForEach(arr, fn) {$/;"	f
+mapForEach	mostimportant.js	/^function mapForEach(arr, fn) {$/;"	f
+memoize	underscore.js	/^    var memoize = function(key) {$/;"	f	function:_.memoize
+n	underscore.js	/^    '\\r': 'r',$/;"	p	class:escapes
+name	func_obj.js	/^writeWord.client = {name:'Sasha', surname:'Bemotoff'};$/;"	p	class:writeWord.client
+name	self.js	/^var c = {$/;"	p	class:c
+nativeIsArray	underscore.js	/^  var nativeIsArray = Array.isArray,$/;"	v
+noMatch	underscore.js	/^  var noMatch = \/(.)^\/;$/;"	v
+nodelist	underscore.js	/^  var nodelist = root.document && root.document.childNodes;$/;"	v
+nonEnumerableProps	underscore.js	/^  var nonEnumerableProps = ['valueOf', 'isPrototypeOf', 'toString',$/;"	v
+optimizeCb	underscore.js	/^  var optimizeCb = function(func, context, argCount) {$/;"	f
+previousUnderscore	underscore.js	/^  var previousUnderscore = root._;$/;"	v
+push	underscore.js	/^  var push = ArrayProto.push,$/;"	v
+r	underscore.js	/^    '\\\\': '\\\\',$/;"	p	class:escapes
+reStrSymbol	underscore.js	/^  var reStrSymbol = \/[^\\ud800-\\udfff]|[\\ud800-\\udbff][\\udc00-\\udfff]|[\\ud800-\\udfff]\/g;$/;"	v
+reducer	underscore.js	/^    var reducer = function(obj, iteratee, memo, initial) {$/;"	f	function:createReduce
+restArguments	underscore.js	/^  var restArguments = function(func, startIndex) {$/;"	f
+sayHiLater	callback.js	/^function sayHiLater(){$/;"	f
+setname	self.js	/^        var setname = function(newname) {$/;"	f	function:log
+shallowProperty	underscore.js	/^  var shallowProperty = function(key) {$/;"	f
+surname	func_obj.js	/^writeWord.client = {name:'Sasha', surname:'Bemotoff'};$/;"	p	class:writeWord.client
+tellMeWhenDone	callback.js	/^function tellMeWhenDone(callback) {$/;"	f
+template	underscore.js	/^    var template = function(data) {$/;"	f	function:var
+throttled	underscore.js	/^    var throttled = function() {$/;"	f
+throttled.cancel	underscore.js	/^    };$/;"	f
+toString	underscore.js	/^  _.prototype.toString = function() {$/;"	m	class:_
+u2028	underscore.js	/^    '\\n': 'n',$/;"	p	class:escapes
+u2029	underscore.js	/^    '\\u2028': 'u2028',$/;"	p	class:escapes
+value	underscore.js	/^  _.prototype.value = function() {$/;"	m	class:_
+valueOf	underscore.js	/^  _.prototype.valueOf = _.prototype.toJSON = _.prototype.value;$/;"	m	class:_
+writeWord	func_obj.js	/^function writeWord(wordi){$/;"	f
