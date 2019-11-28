@@ -1,2 +1,30 @@
-var q = $("ul.people li");
-console.log(q);
+// An object literal
+var myFeature = {
+    myProperty: "hello",
+
+    myMethod: function() {
+        console.log( myFeature.myProperty );
+    },
+
+    init: function( settings ) {
+        myFeature.settings = settings;
+    },
+
+    readSettings: function() {
+        console.log( myFeature.settings );
+    }
+};
+
+myFeature.myProperty === "hello"; // true
+
+myFeature.myMethod(); // "hello"
+
+myFeature.init({
+    foo: "bar",
+    moo: "restorant",
+    bos: 'Sasha'
+});
+
+myFeature.readSettings(); // { foo: "bar" }/ An object literal
+
+console.log(myFeature);
