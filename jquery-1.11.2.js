@@ -8311,7 +8311,8 @@ if ( !support.enctype ) {
 
 
 var rclass = /[\t\r\n\f]/g;
-
+//addClass extend method
+//bobik
 jQuery.fn.extend({
 	addClass: function( value ) {
 		var classes, elem, cur, clazz, j, finalValue,

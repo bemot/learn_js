@@ -1,22 +1,12 @@
-//callback function
+// 71. Deep Dive into Source Code jQuery - Part 2
 //
-
-function tellMeWhenDone(callback) {
-
-    var a =10;
-    var b = 24; //some work
-
-    callback();
-}
-
-
-
-tellMeWhenDone(function(){
-    console.log('I am done!');
-});
-
-tellMeWhenDone(function(){
-    console.log('I am done again!');
-});
-
+//method chaining in jQuery
+//
+//BigWord alert
+//METHOD CHAINING
+//calling one method after another, and each method
+//affectes the parent object
+//
+var q = $('ul.people li').addClass('newclass').removeClass('people');
+console.log(q);
 
