@@ -26,12 +26,24 @@
         es: 'Inicio sesion'
     };
 
-        // we will put all methods to prototype
+        // we will put all methods to prototype HERE!!!
     Greetr.prototype = {
         fullName: function() {
             return this.firstName + ' ' + this.lastName;
-        }
+        },
+
+        validate: function() {
+            if(supportedLangs.indexOf(this.language) === =1) {
+                throw "Invalid language";
+            }
+        },
+
+
+
     };
+
+
+
 
     Greetr.init = function(firstName, lastName, language) {
             var self = this;
