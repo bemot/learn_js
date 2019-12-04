@@ -1,33 +1,19 @@
-<<<<<<< HEAD
-// Themes javascript framework
-//
-//
-//
-// Reusable library/framework
-// Easy to type 'T$()' structure
-// Support jQuery
+// gets a new object (the architecture allows us to not have to use the 'new' keyword here)
+var g = G$('John', 'Doe');
 
-//var g = G$('bobik', 'bobka', 'nn');
-//console.log(g);
+// use our chainable methods
+g.greet().setLang('es').greet(true).log();
 
-
-
-var t = T$('Theme2','ua');
-console.log(t.whatLanguage());
-var lang = t.whatLanguage();
-console.log(t.languages[lang]);
-var theme = t.whatTheme();
-console.log(theme);
-
-=======
-$(document).ready(function(){
-  $("button").click(function(){
-    $("#div1").load("test.html", function(responseTxt, statusTxt, xhr){
-      if(statusTxt == "success")
-        alert("External content loaded successfully!");
-      if(statusTxt == "error")
-        alert("Error: " + xhr.status + ": " + xhr.statusText);
-    });
-  });
+// let's use our object on the click of the login button
+$('#login').click(function() {
+   
+    // create a new 'Greetr' object (let's pretend we know the name from the login)
+    var loginGrtr = G$('John', 'Doe');
+    
+     // hide the login on the screen
+    $('#logindiv').hide();
+    
+     // fire off an HTML greeting, passing the '#greeting' as the selector and the chosen language, and log the welcome as well
+    loginGrtr.setLang($('#lang').val()).HTMLGreeting('#greeting', true).log();
+    
 });
->>>>>>> dffef3e5edc5ad5fb4f843de3dc1ab158d426eee
