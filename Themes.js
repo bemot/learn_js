@@ -48,7 +48,7 @@
         //we are returning object here (bobik)
 		//never use functioon eval() ha-ha-ha
         whatTheme: function(){
-        	return eval('this.'+this.theme);
+        	return (this[this.theme]);
         },
 
         whatLanguage: function() {
