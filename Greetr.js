@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 ;(function(global, $) {
+=======
+
+(function(global, $) {
+>>>>>>> dffef3e5edc5ad5fb4f843de3dc1ab158d426eee
 
     // 'new' an object
     var Greetr = function(firstName, lastName, language) {
@@ -138,4 +143,8 @@
     // attach our Greetr to the global object, and provide a shorthand '$G' for ease our poor fingers
     global.Greetr = global.G$ = Greetr;
 
+<<<<<<< HEAD
 }(window, jQuery));
+=======
+}(window, $));
+>>>>>>> dffef3e5edc5ad5fb4f843de3dc1ab158d426eee
