@@ -1,10 +1,20 @@
-// GREETR javascript framework
-//  when given first name, last name, and optional
-//  language, it generates formal and informal greetings.
-// Support English and Spanish languages
-//  Reusable library/framework
-// Easy to type 'G$()' structure
+// Themes javascript framework
+//
+//
+//
+// Reusable library/framework
+// Easy to type 'T$()' structure
 // Support jQuery
 
-var g = G$('John','Doe');
-console.log(g.fullName());
+//var g = G$('bobik', 'bobka', 'nn');
+//console.log(g);
+
+
+
+var t = T$('Theme2','ua');
+console.log(t.whatLanguage());
+var lang = t.whatLanguage();
+console.log(t.languages[lang]);
+var theme = t.whatTheme();
+console.log(theme);
+
